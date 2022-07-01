@@ -1,0 +1,47 @@
+{
+    "breeds": [{
+
+            "name": "German Shepherd",
+            "id": 1,
+            "description": "German Shepherd is a breed of medium-size dog that is often considered to be one of the most popular breeds of dog in the United States. It is a breed of working, herding, guarding, search and rescue dog, often used as a guard dog, police dog, farm dog, and military dog. The breed is named after the German Shepherd Dog, a German breed of medium-size working dog that was originally bred for herding. The breed is now popular in the United States and is often referred to as a \"German Shepherd\" or \"German Shepherd Dog.\"",
+            "imageUrl": "GEMAN_SHEPHERD.jpeg"
+        },
+        {
+
+            "name": "Pomeranian",
+            "id": 2,
+            "description": "Pomeranian are lovely and cheerful dogs and are the perfect companion for you",
+            "imageUrl": "dPomeranian.jpeg"
+        },
+        {
+
+            "name": "Poodle",
+            "id": 3,
+            "description": "Poodle are small and cute dogs that are very friendly",
+            "imageUrl": "dPoodle.jpeg"
+
+        },
+        {
+            "name": "Siberian Husky",
+            "id": 4,
+            "description": "Siberian Husky are the most popular dog breed which is a large and muscular dog",
+            "imageUrl": "dSiberian Husky.jpeg"
+
+        },
+        {
+
+            "name": "Terrier",
+            "id": 5,
+            "description": "Terrier are the most popular dog breed that are also friendly",
+            "imageUrl": "dterrier.jpeg"
+        },
+
+        {
+            "name": "French Bulldog",
+            "id": 6,
+            "description": "French Bulldog are the most popular dog breed in the world",
+            "imageUrl": "French Bulldog"
+        }
+
+    ]
+}
