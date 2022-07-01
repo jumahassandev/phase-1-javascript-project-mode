@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>c</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div>
+      <header id="menu">
+        <h1>My favorite dog breeds</h1>
+      </header>
+      <div class="container">
+        <div id="form">
+          <form id=" breed-form">
+            <label for="name">Breed</label><br />
+            <input type="text" id="breed" name="breed" /><br />
+            <label for="name">Get breed by ENDPOINT</label><br />
+            <input type="text" id="image-URL" name="img-URL" /><br />
+            <label for="description">Description</label><br />
+            <textarea id="description" name="description"></textarea><br />
+            <button type="submit">getbreed</button>
+          </form>
+        </div>
+
+        <div>
+          <ul id="breed-list" class="card">
+            <li>
+              <img
+                src="GERMAN_SHEPHERD.jpeg"
+                alt="German Shepherd"
+                title="German Shepherd"
+              />
+              <div class="content">
+                <h2>German Shepherd</h2>
+                <p>$<span class="payment">20</span>Payment</p>
+                <p>With GERMAN_SHEPHERD Your security is well taken care of.</p>
+              </div>
+              <div class="button">
+                <button id="pay">pay $20</button>
+                <button id="set_pass">checkout</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
